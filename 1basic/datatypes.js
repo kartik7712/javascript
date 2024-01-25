@@ -4,13 +4,13 @@
 
 // 7 primitive datatypes
 // number , string , boolean , null , undefined , symbol , Bigint
-let number = 1
-let string = "hello"
-let bool = true
-let nullvalue = null
-let kartik;
-const id = symbol('123')
-let bignumber = 34567890n;
+// let number = 1
+// let string = "hello"
+// let bool = true
+// let nullvalue = null
+// let kartik;
+// const id = symbol('123')
+// let bignumber = 34567890n;
 
 // const newid = symbol('123')
 
@@ -22,17 +22,43 @@ let bignumber = 34567890n;
 // 3 non-primitive datatypes
 // Array , Object,  function
 
-const hero = ["marvel", "dc" ,"south"] //array
+// const hero = ["marvel", "dc" ,"south"] //array
 
- const objectvalue = {
+//  const objectvalue = {
+//     name:'kartik',
+//     age: 66,
+//     Myjob: 'web',
+// }
+
+// const Myfunction = function(){
+//     console.log("hello world")
+// }
+// console.log(typeof hero)
+// console.log(typeof objectvalue)
+// console.log(typeof Myfunction)
+
+
+// ***************************
+// stack and heap memory
+
+// stack memory
+
+let newname = "ok world"
+let startname = newname
+
+startname = "hey siri"
+console.log(newname )
+console.log(startname )
+
+
+// stack memory
+
+let objectone = {
     name:'kartik',
-    age: 66,
-    Myjob: 'web',
+    email:'kartik@gmail.com'
 }
+ let objecttwo = objectone
+ objecttwo.email = 'kargwal@gmail.com'
 
-const Myfunction = function(){
-    console.log("hello world")
-}
-console.log(typeof hero)
-console.log(typeof objectvalue)
-console.log(typeof Myfunction)
+ console.log(objecttwo.email)
+
